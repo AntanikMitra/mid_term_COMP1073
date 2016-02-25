@@ -22,8 +22,27 @@ console.log("App Started...")
 
 
     };
+    
+
+// replacing paragraph one
+ var replaceSecondParagraph = function () {
+
+        console.log("inside replaceSecondParagraph anonymous Function");
+
+        var Folegandro;
+
+        Folegandro = document.getElementById("Folegandro");
+
+        Folegandro.innerHTML = "Now is the time to travel to Greece.The country may be going through an economic crisis, but many travellers say that it hasn't impacted the experience of visiting. Plus, there may be some great deals.Greece has 1,400 islands, though only 230 of them areinhabited.And while everyone knows about Santorini and Mykonos, there are gorgeous lesser-known islands in Greece, too.";
+
+
+    };
+    
+    
 // call replaceFirstParagraph
 replaceFirstParagraph();
+// call replaceSecondParagraph
+replaceSecondParagraph();
 
 })();
 
