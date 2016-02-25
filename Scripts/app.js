@@ -24,7 +24,7 @@ console.log("App Started...")
     };
     
 
-// replacing paragraph one
+// replacing paragraph two
  var replaceSecondParagraph = function () {
 
         console.log("inside replaceSecondParagraph anonymous Function");
@@ -39,10 +39,28 @@ console.log("App Started...")
     };
     
     
+    // replacing paragraph three
+ var replaceThirdParagraph = function () {
+
+        console.log("inside replaceThirdParagraph anonymous Function");
+
+        var Alonissos;
+
+        Alonissos = document.getElementById("Alonissos");
+
+        Alonissos.innerHTML = "Off the mainland, this island, whose surrounding waters are a designated marine park full of seals and dolphins, is a nature lover's dream. The spectacular spot's crystal clear waters and beautiful beaches are perfect for diving, and its lush flora and dense forests ideal for hikes. Since the rich landscape is chock full of indigenous herbs, it's also known for its traditional medicine, and home of the International Academy of Homeopathy.";
+
+
+    };
+    
+    
+    
 // call replaceFirstParagraph
 replaceFirstParagraph();
 // call replaceSecondParagraph
 replaceSecondParagraph();
+// call replaceThirdParagraph
+replaceThirdParagraph();
 
 })();
 
