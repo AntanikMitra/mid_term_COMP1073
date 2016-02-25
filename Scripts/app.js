@@ -114,6 +114,21 @@ console.log("App Started...")
     };
     
     
+    // replacing paragraph eighth
+ var replaceEighthParagraph = function () {
+
+        console.log("inside replaceEighthParagraph anonymous Function");
+
+        var Hydra;
+
+        Hydra = document.getElementById("Hydra");
+
+        Hydra.innerHTML = "The first thing you'll notice on this beautiful island is the lack of cars — and buses, motorcycles, or other wheeled vehicles, as well as high rises. The winding little streets full of beautiful 18th-century mansions, churches, cathedrals, museums and art galleries are covered in cobblestones, and mostly trafficked by donkeys and humans. Back in the day, the island attracted celebrities like Leonard Cohen and Sophia Loren, but was somehow forgotten over the years. That means that travellers to Hydra can have the chic yet almost rural island paradise more or less to themselves.";
+
+
+    };
+    
+    
     
 // call replaceFirstParagraph
 replaceFirstParagraph();
@@ -129,6 +144,9 @@ replaceFifthParagraph();
 replaceSixthParagraph();
 // call replaceSeventhParagraph
 replaceSeventhParagraph();
+// call replaceEighthParagraph
+replaceEighthParagraph();
+
 
 })();
 
