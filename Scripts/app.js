@@ -159,6 +159,27 @@ console.log("App Started...")
     
     
     
+    
+    
+    //contact form to console
+     var firstName = document.getElementById("firstName");
+    var lastName = document.getElementById("lastName");
+    var email = document.getElementById("email");
+    var comments = document.getElementById("comments");
+    var submitButton = document.getElementById("submitButton");
+    submitButton.pre
+
+ // adding the event listener
+    submitButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        console.log("First Name: " + firstName.value);
+        console.log("Last Name: " + lastName.value);
+        console.log("Email: " + email.value);
+        console.log("Comment: " + comments.value);
+    });
+    
+    
+    
 // call replaceFirstParagraph
 replaceFirstParagraph();
 // call replaceSecondParagraph
