@@ -29,11 +29,11 @@ console.log("App Started...")
 
         console.log("inside replaceSecondParagraph anonymous Function");
 
-        var Folegandro;
+        var Folegandros;
 
-        Folegandro = document.getElementById("Folegandro");
+        Folegandros = document.getElementById("Folegandros");
 
-        Folegandro.innerHTML = "Folegandros is almost a Greek cliché, full of beautiful whitewashed houses with bright blue doors lining cobblestoned streets on steep cliffs. Rugged and remote, without chain hotels or package tours — not even a bank or ATM — and accessible only by ferry, the volcanic island boasts solitude in spades, secluded beaches, and incredible sunsets.";
+        Folegandros.innerHTML = "Folegandros is almost a Greek cliché, full of beautiful whitewashed houses with bright blue doors lining cobblestoned streets on steep cliffs. Rugged and remote, without chain hotels or package tours — not even a bank or ATM — and accessible only by ferry, the volcanic island boasts solitude in spades, secluded beaches, and incredible sunsets.";
 
 
     };
