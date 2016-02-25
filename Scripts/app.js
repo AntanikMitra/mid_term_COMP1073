@@ -99,6 +99,21 @@ console.log("App Started...")
     };
     
     
+    // replacing paragraph seventh
+ var replaceSeventhParagraph = function () {
+
+        console.log("inside replaceSeventhParagraph anonymous Function");
+
+        var Milos;
+
+        Milos = document.getElementById("Milos");
+
+        Milos.innerHTML = "This volcanic island, with catacombs and ancient iron mines to explore, is dramatically rugged, and famous for its stunning rock formations. Often likened to a moonscape, it's also known for its hot springs, the ancient Venus De Milo statue that was found here, and for its diversity of incredible beaches. Known as the island of colours it's home to around 80 beaches — some only accessible by boat — ranging from stunningly white, to striking black, and even unusual red and grey. However, each beach has the same Evian-clear turquoise waters, and is surrounded by a rugged mountain landscape.";
+
+
+    };
+    
+    
     
 // call replaceFirstParagraph
 replaceFirstParagraph();
@@ -112,6 +127,8 @@ replaceForthParagraph();
 replaceFifthParagraph();
 // call replaceSixthParagraph
 replaceSixthParagraph();
+// call replaceSeventhParagraph
+replaceSeventhParagraph();
 
 })();
 
