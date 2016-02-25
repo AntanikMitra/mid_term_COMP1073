@@ -69,6 +69,21 @@ console.log("App Started...")
     };
     
     
+    // replacing paragraph five
+ var replaceFifthParagraph = function () {
+
+        console.log("inside replaceFifthParagraph anonymous Function");
+
+        var Amorgos;
+
+        Amorgos = document.getElementById("Amorgos");
+
+        Amorgos.innerHTML = "Shipwrecks, sea caves and beautiful clear waters make Amorgos popular with snorkelers, but the mountainous island is the perfect compromise between unwinding and adventure, boasting beautiful beaches but also hiking, scuba diving and rock-climbing. One of the island's main attractions is the 11th-century cliffside monastery of Panayia Hozoviótissa, which is precariously carved into a cliff.";
+
+
+    };
+    
+    
     
 // call replaceFirstParagraph
 replaceFirstParagraph();
@@ -78,6 +93,8 @@ replaceSecondParagraph();
 replaceThirdParagraph();
 // call replaceForthParagraph
 replaceForthParagraph();
+// call replaceFifthParagraph
+replaceFifthParagraph();
 
 })();
 
