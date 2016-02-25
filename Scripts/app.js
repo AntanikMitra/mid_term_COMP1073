@@ -84,6 +84,21 @@ console.log("App Started...")
     };
     
     
+    // replacing paragraph sixth
+ var replaceSixthParagraph = function () {
+
+        console.log("inside replaceSixthParagraph anonymous Function");
+
+        var Syros;
+
+        Syros = document.getElementById("Syros");
+
+        Syros.innerHTML = "A favourite Athenian escape and former shipowners' vacation spot full of grand mansions, Syros is little known to foreigners. Famous for its neoclassical architecture and perfectly preserved heritage, its capital, Ermoupolis, was a 13th-century Venetian-built town and important trade and industrial centre, and boasts giant churches and beautiful villas, a stunning town hall, and labyrinthine streets and stairways.";
+
+
+    };
+    
+    
     
 // call replaceFirstParagraph
 replaceFirstParagraph();
@@ -95,6 +110,8 @@ replaceThirdParagraph();
 replaceForthParagraph();
 // call replaceFifthParagraph
 replaceFifthParagraph();
+// call replaceSixthParagraph
+replaceSixthParagraph();
 
 })();
 
